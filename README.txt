@@ -1,0 +1,1 @@
+IMPORTANT - include "framework_intermediates-classes-full-debug.jar" in build path as user library and remove from lib folder
