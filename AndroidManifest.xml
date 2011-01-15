@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="prajwol.app.callblocker" android:versionCode="1"
-	android:versionName="1.0">
-	<application android:name=".App" android:icon="@drawable/icon" android:label="@string/app_name">
+	package="prajwol.app.callblocker" android:versionCode="2"
+	android:versionName="1.1">
+	<application android:name=".App" android:icon="@drawable/icon"
+		android:label="@string/app_name">
 		<activity android:name=".Main" android:label="@string/app_name">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -20,5 +21,8 @@
 	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
 	<uses-permission android:name="android.permission.READ_CONTACTS" />
 
-<uses-sdk android:minSdkVersion="4" android:maxSdkVersion="1" android:targetSdkVersion="5"></uses-sdk>
+	<uses-sdk android:minSdkVersion="3"></uses-sdk>
+	<supports-screens android:smallScreens="true"
+		android:normalScreens="true" android:largeScreens="true"
+		android:anyDensity="true" />
 </manifest> 
